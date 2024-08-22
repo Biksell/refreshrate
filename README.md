@@ -1,9 +1,9 @@
 Switch refresh rates easily from your system tray
 
-# Usage
+## Usage
 
 ``python main.py <MONITOR_INDEX> <RATE1,RATE2,...>``
 
-## Example:
+## Example
 
-``Python main.py 0 60,144,165``
+``python main.py 0 60,144,165``
