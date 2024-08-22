@@ -32,8 +32,8 @@ def create_menu(refresh_rates):
 def main():
     global MONITOR_INDEX
     try:
-        MONITOR_INDEX = sys.argv[1]
-        rates = sys.argv[2].split(",")
+        MONITOR_INDEX = int(sys.argv[1])
+        rates = [int(rate) for rate in sys.argv[2].split(",")]
     except:
         MONITOR_INDEX = 0
         rates = [60]
