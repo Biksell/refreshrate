@@ -1,5 +1,8 @@
 Switch refresh rates easily from your system tray
+
+
 ![screenshot](screenshot.png)
+
 ## Usage
 (Python 3.11)
 ```
